@@ -10,9 +10,12 @@
   <!--========== PRE-LOADING FONTS ==========-->
   <link rel="preload" href="fonts/montserrat-regular-webfont.woff2" as="font" crossorigin>
   <link rel="preload" href="fonts/montserrat-bold-webfont.woff2" as="font" crossorigin>
+  <link rel="preload" href="fonts/faconbold.woff2" as="font" crossorigin>
+  <!--========== CONNECTING READY-MADE JAVASCRIPT SOLUTIONS ==========-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!--========== INCLUDING STYLE FILES ==========-->
-  <link rel="stylesheet" href="/css/destyle.css?ver=1" media="screen">
-  <link rel="stylesheet" href="/css/styles.css?ver=1" media="screen">
+  <link rel="stylesheet" href="css/destyle.css?ver=1">
+  <link rel="stylesheet" href="css/styles.css?ver=1">
   <!--========== CONNECT FAVICON ==========-->
   <link rel="shortcut icon" href="favicon.ico">
   <!--========== DISABLE THE FORMATION OF A LINK FOR A PHONE NUMBER ON IOS ==========-->
@@ -40,146 +43,170 @@
 <body>
   <!--========== WRAPPER ==========-->
   <div class="wrapper">
-    <!--========== INNER ==========-->
-    <div class="inner inner-1 inner_1">
-      <div class="inner-1__box inner-1__box_color_cyan">A</div>
-      <div class="inner-1__box inner-1__box_color_orange">B</div>
-      <div class="inner-1__box inner-1__box_color_green">C</div>
-      <div class="inner-1__box inner-1__box_color_magenta">D</div>
-      <div class="inner-1__box inner-1__box_color_pink">E</div>
-      <div class="inner-1__box inner-1__box_color_blue">F</div>
-    </div>
-    <div class="inner inner-2 inner_2">
-      <div class="inner-2__box inner-2__box_mansoryi">Masonry I</div>
-      <div class="inner-2__box inner-2__box_flexible">Flexible Breadth</div>
-      <div class="inner-2__box inner-2__box_dom">DOM Order</div>
-      <div class="inner-2__box inner-2__box_responsive">Responsive</div>
-      <div class="inner-2__box inner-2__box_fluid">Fluid</div>
-      <div class="inner-2__box inner-2__box_mansoryii">Masonry II</div>
-      <div class="inner-2__box inner-2__box_overlap">Overlap</div>
-      <div class="inner-2__box inner-2__box_explicity">Explicity Placed</div>
-      <div class="inner-2__box inner-2__box_negative">Negative Space</div>
-      <div class="inner-2__box inner-2__box_mansoryiii">Masonry III</div>
-      <div class="inner-2__box inner-2__box_named">Named Tracks</div>
-    </div>
-    <div class="inner inner-3 inner_3">
-      <div class="inner-3__box inner-3__box_1"><span class="inner-3__number">1</span></div>
-      <div class="inner-3__box inner-3__box_2"><span class="inner-3__number">2</span></div>
-      <div class="inner-3__box inner-3__box_3"><span class="inner-3__number">3</span></div>
-      <div class="inner-3__box inner-3__box_4"><span class="inner-3__number">4</span></div>
-      <div class="inner-3__box inner-3__box_5"><span class="inner-3__number">5</span></div>
-      <div class="inner-3__box inner-3__box_6"><span class="inner-3__number">6</span></div>
-      <div class="inner-3__box inner-3__box_7"><span class="inner-3__number">7</span></div>
-      <div class="inner-3__box inner-3__box_8"><span class="inner-3__number">8</span></div>
-      <div class="inner-3__box inner-3__box_9"><span class="inner-3__number">9</span></div>
-      <div class="inner-3__box inner-3__box_10"><span class="inner-3__number">10</span></div>
-      <div class="inner-3__box inner-3__box_11"><span class="inner-3__number">11</span></div>
-      <div class="inner-3__box inner-3__box_12"><span class="inner-3__number">12</span></div>
-      <div class="inner-3__box inner-3__box_13"><span class="inner-3__number">13</span></div>
-      <div class="inner-3__box inner-3__box_14"><span class="inner-3__number">14</span></div>
-    </div>
-    <div class="inner inner-4 inner_4">
-      <div class="inner-4__box inner-4__box_1">1</div>
-      <div class="inner-4__box inner-4__box_2">2</div>
-      <div class="inner-4__box inner-4__box_3">3</div>
-      <div class="inner-4__box inner-4__box_4">4</div>
-      <div class="inner-4__box inner-4__box_5">5</div>
-      <div class="inner-4__box inner-4__box_6">6</div>
-      <div class="inner-4__box inner-4__box_7">7</div>
-      <div class="inner-4__box inner-4__box_8">8</div>
-    </div>
-    <div class="inner inner-5 inner_5">
-      <div class="inner-5__box inner-5__box_1">1</div>
-      <div class="inner-5__box inner-5__box_2">2</div>
-      <div class="inner-5__box inner-5__box_3">3</div>
-      <div class="inner-5__box inner-5__box_4">4</div>
-      <div class="inner-5__box inner-5__box_5">5</div>
-      <div class="inner-5__box inner-5__box_6">6</div>
-      <div class="inner-5__box inner-5__box_7">7</div>
-      <div class="inner-5__box inner-5__box_8">8</div>
-      <div class="inner-5__box inner-5__box_9">9</div>
-      <div class="inner-5__box inner-5__box_10">10</div>
-    </div>
-    <div class="inner inner-6 inner_6">
-      <div class="inner-6__box inner-6__box_1">1</div>
-      <div class="inner-6__box inner-6__box_2">2</div>
-      <div class="inner-6__box inner-6__box_3">3</div>
-      <div class="inner-6__box inner-6__box_4">4</div>
-      <div class="inner-6__box inner-6__box_5">5</div>
-      <div class="inner-6__box inner-6__box_6">6</div>
-      <div class="inner-6__box inner-6__box_7">7</div>
-      <div class="inner-6__box inner-6__box_8">8</div>
-      <div class="inner-6__box inner-6__box_9">9</div>
-    </div>
-    <div class="inner inner-7 inner_7">
-      <div class="inner-7__box inner-7__box_1">1</div>
-      <div class="inner-7__box inner-7__box_2">2</div>
-      <div class="inner-7__box inner-7__box_3">3</div>
-      <div class="inner-7__box inner-7__box_4">4</div>
-      <div class="inner-7__box inner-7__box_5">5</div>
-    </div>
-    <div class="inner inner-8 inner_8">
-      <div class="inner-8__box inner-8__box_1">1</div>
-      <div class="inner-8__box inner-8__box_2">2</div>
-      <div class="inner-8__box inner-8__box_3">3</div>
-      <div class="inner-8__box inner-8__box_4">4</div>
-    </div>
-    <div class="inner inner-9 inner_9">
-      <div class="inner-9__box inner-9__box_1">1</div>
-      <div class="inner-9__box inner-9__box_2">2</div>
-      <div class="inner-9__box inner-9__box_3">3</div>
-      <div class="inner-9__box inner-9__box_4">4</div>
-      <div class="inner-9__box inner-9__box_5">5</div>
-    </div>
-    <div class="inner inner-10 inner_10">
-      <div class="inner-10__box inner-10__box_1">1</div>
-      <div class="inner-10__box inner-10__box_2">2</div>
-      <div class="inner-10__box inner-10__box_3">3</div>
-      <div class="inner-10__box inner-10__box_4">4</div>
-      <div class="inner-10__box inner-10__box_5">5</div>
-      <div class="inner-10__box inner-10__box_6">6</div>
-    </div>
-    <div class="inner inner-11 inner_11">
-      <div class="inner-11__box inner-11__box_1">1</div>
-      <div class="inner-11__box inner-11__box_2">2</div>
-      <div class="inner-11__box inner-11__box_3">3</div>
-      <div class="inner-11__box inner-11__box_4">4</div>
-      <div class="inner-11__box inner-11__box_5">5</div>
-      <div class="inner-11__box inner-11__box_6">6</div>
-      <div class="inner-11__box inner-11__box_7">7</div>
-      <div class="inner-11__box inner-11__box_8">8</div>
-    </div>
-    <div class="inner inner-12 inner_12">
-      <header class="inner-12__header">
-
-      </header>
-      <main class="inner-12__main main-12">
-        <div class="main-12__top">
-
+    <h1 class="wrapper__title">Different Grids</h1>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <!-- Grid 1 -->
+        <div class="swiper-slide swiper-slide-1">
+          <div class="swiper-slide__box swiper-slide-1__box">1</div>
+          <div class="swiper-slide__box swiper-slide-1__box">2</div>
+          <div class="swiper-slide__box swiper-slide-1__box">3</div>
+          <div class="swiper-slide__box swiper-slide-1__box">4</div>
+          <div class="swiper-slide__box swiper-slide-1__box">5</div>
+          <div class="swiper-slide__box swiper-slide-1__box">6</div>
         </div>
-        <div class="main-12__center center-12">
-          <div class="center-12__left left-12">
-            <div class="left-12__box left-12__box_1"></div>
-            <div class="left-12__box left-12__box_2"></div>
-            <div class="left-12__box left-12__box_3"></div>
-            <div class="left-12__box left-12__box_4"></div>
-            <div class="left-12__box left-12__box_5"></div>
-            <div class="left-12__box left-12__box_6"></div>
-            <div class="left-12__box left-12__box_7"></div>
-            <div class="left-12__box left-12__box_8"></div>
-          </div>
-          <div class="center-12__right right-12">
-            <div class="right-12__box right-12__box_1"></div>
-            <div class="right-12__box right-12__box_2"></div>
-            <div class="right-12__box right-12__box_3"></div>
-            <div class="right-12__box right-12__box_4"></div>
-            <div class="right-12__box right-12__box_5"></div>
-            <div class="right-12__box right-12__box_6"></div>
-          </div>
+        <!-- Grid 2 -->
+        <div class="swiper-slide swiper-slide-2">
+          <div class="swiper-slide__box swiper-slide-2__box">1</div>
+          <div class="swiper-slide__box swiper-slide-2__box">2</div>
+          <div class="swiper-slide__box swiper-slide-2__box">3</div>
+          <div class="swiper-slide__box swiper-slide-2__box">4</div>
+          <div class="swiper-slide__box swiper-slide-2__box">5</div>
+          <div class="swiper-slide__box swiper-slide-2__box">6</div>
+          <div class="swiper-slide__box swiper-slide-2__box">7</div>
+          <div class="swiper-slide__box swiper-slide-2__box">8</div>
+          <div class="swiper-slide__box swiper-slide-2__box">9</div>
+          <div class="swiper-slide__box swiper-slide-2__box">10</div>
+          <div class="swiper-slide__box swiper-slide-2__box">11</div>
         </div>
-      </main>
+        <!-- Grid 3 -->
+        <div class="swiper-slide swiper-slide-3">
+          <div class="swiper-slide__box swiper-slide-3__box">1</div>
+          <div class="swiper-slide__box swiper-slide-3__box">2</div>
+          <div class="swiper-slide__box swiper-slide-3__box">3</div>
+          <div class="swiper-slide__box swiper-slide-3__box">4</div>
+          <div class="swiper-slide__box swiper-slide-3__box">5</div>
+          <div class="swiper-slide__box swiper-slide-3__box">6</div>
+          <div class="swiper-slide__box swiper-slide-3__box">7</div>
+          <div class="swiper-slide__box swiper-slide-3__box">8</div>
+          <div class="swiper-slide__box swiper-slide-3__box">9</div>
+          <div class="swiper-slide__box swiper-slide-3__box">10</div>
+          <div class="swiper-slide__box swiper-slide-3__box">11</div>
+          <div class="swiper-slide__box swiper-slide-3__box">12</div>
+          <div class="swiper-slide__box swiper-slide-3__box">13</div>
+          <div class="swiper-slide__box swiper-slide-3__box">14</div>
+        </div>
+        <!-- Grid 4 -->
+        <div class="swiper-slide swiper-slide-4">
+          <div class="swiper-slide__box swiper-slide-4__box">1</div>
+          <div class="swiper-slide__box swiper-slide-4__box">2</div>
+          <div class="swiper-slide__box swiper-slide-4__box">3</div>
+          <div class="swiper-slide__box swiper-slide-4__box">4</div>
+          <div class="swiper-slide__box swiper-slide-4__box">5</div>
+          <div class="swiper-slide__box swiper-slide-4__box">6</div>
+          <div class="swiper-slide__box swiper-slide-4__box">7</div>
+          <div class="swiper-slide__box swiper-slide-4__box">8</div>
+        </div>
+        <!-- Grid 5 -->
+        <div class="swiper-slide swiper-slide-5">
+          <div class="swiper-slide__box swiper-slide-5__box">1</div>
+          <div class="swiper-slide__box swiper-slide-5__box">2</div>
+          <div class="swiper-slide__box swiper-slide-5__box">3</div>
+          <div class="swiper-slide__box swiper-slide-5__box">4</div>
+          <div class="swiper-slide__box swiper-slide-5__box">5</div>
+          <div class="swiper-slide__box swiper-slide-5__box">6</div>
+          <div class="swiper-slide__box swiper-slide-5__box">7</div>
+          <div class="swiper-slide__box swiper-slide-5__box">8</div>
+          <div class="swiper-slide__box swiper-slide-5__box">9</div>
+          <div class="swiper-slide__box swiper-slide-5__box">10</div>
+        </div>
+        <!-- Grid 6 -->
+        <div class="swiper-slide swiper-slide-6">
+          <div class="swiper-slide__box swiper-slide-6__box">1</div>
+          <div class="swiper-slide__box swiper-slide-6__box">2</div>
+          <div class="swiper-slide__box swiper-slide-6__box">3</div>
+          <div class="swiper-slide__box swiper-slide-6__box">4</div>
+          <div class="swiper-slide__box swiper-slide-6__box">5</div>
+          <div class="swiper-slide__box swiper-slide-6__box">6</div>
+          <div class="swiper-slide__box swiper-slide-6__box">7</div>
+          <div class="swiper-slide__box swiper-slide-6__box">8</div>
+          <div class="swiper-slide__box swiper-slide-6__box">9</div>
+        </div>
+        <!-- Grid 7 -->
+        <div class="swiper-slide swiper-slide-7">
+          <div class="swiper-slide__box swiper-slide-7__box">1</div>
+          <div class="swiper-slide__box swiper-slide-7__box">2</div>
+          <div class="swiper-slide__box swiper-slide-7__box">3</div>
+          <div class="swiper-slide__box swiper-slide-7__box">4</div>
+          <div class="swiper-slide__box swiper-slide-7__box">5</div>
+        </div>
+        <!-- Grid 8 -->
+        <div class="swiper-slide swiper-slide-8">
+          <div class="swiper-slide__box swiper-slide-8__box">1</div>
+          <div class="swiper-slide__box swiper-slide-8__box">2</div>
+          <div class="swiper-slide__box swiper-slide-8__box">3</div>
+          <div class="swiper-slide__box swiper-slide-8__box">4</div>
+          <div class="swiper-slide__box swiper-slide-8__box">5</div>
+          <div class="swiper-slide__box swiper-slide-8__box">6</div>
+        </div>
+        <!-- Grid 9 -->
+        <div class="swiper-slide swiper-slide-9">
+          <div class="swiper-slide__box swiper-slide-9__box">1</div>
+          <div class="swiper-slide__box swiper-slide-9__box">2</div>
+          <div class="swiper-slide__box swiper-slide-9__box">3</div>
+          <div class="swiper-slide__box swiper-slide-9__box">4</div>
+          <div class="swiper-slide__box swiper-slide-9__box">5</div>
+        </div>
+        <!-- Grid 10 -->
+        <div class="swiper-slide swiper-slide-10">
+          <div class="swiper-slide__box swiper-slide-10__box">1</div>
+          <div class="swiper-slide__box swiper-slide-10__box">2</div>
+          <div class="swiper-slide__box swiper-slide-10__box">3</div>
+          <div class="swiper-slide__box swiper-slide-10__box">4</div>
+          <div class="swiper-slide__box swiper-slide-10__box">5</div>
+          <div class="swiper-slide__box swiper-slide-10__box">6</div>
+        </div>
+        <!-- Grid 11 -->
+        <div class="swiper-slide swiper-slide-11">
+          <div class="swiper-slide__box swiper-slide-11__box">1</div>
+          <div class="swiper-slide__box swiper-slide-11__box">2</div>
+          <div class="swiper-slide__box swiper-slide-11__box">3</div>
+          <div class="swiper-slide__box swiper-slide-11__box">4</div>
+          <div class="swiper-slide__box swiper-slide-11__box">5</div>
+          <div class="swiper-slide__box swiper-slide-11__box">6</div>
+          <div class="swiper-slide__box swiper-slide-11__box">7</div>
+          <div class="swiper-slide__box swiper-slide-11__box">8</div>
+        </div>
+        <!-- Grid 12 -->
+        <div class="swiper-slide swiper-slide-12">
+          <header class="slide-box swiper-slide-12__header">1</header>
+          <main class="swiper-slide-12__main main-12 slide-box">
+            <div class="main-12__box-top slide-box">2</div>
+            <div class="main-12__box-center center-box-12 slide-box">
+              <div class="center-box-12__left left-12-box">
+                <div class="slide-box left-12-box__el">3</div>
+                <div class="slide-box left-12-box__el">4</div>
+                <div class="slide-box left-12-box__el">5</div>
+                <div class="slide-box left-12-box__el">6</div>
+                <div class="slide-box left-12-box__el">7</div>
+                <div class="slide-box left-12-box__el">8</div>
+                <div class="slide-box left-12-box__el">9</div>
+                <div class="slide-box left-12-box__el">10</div>
+              </div>
+              <div class="center-box-12__right right-12-box">
+                <div class="slide-box right-12-box__el">11</div>
+                <div class="slide-box right-12-box__el">12</div>
+                <div class="slide-box right-12-box__el">13</div>
+                <div class="slide-box right-12-box__el">14</div>
+                <div class="slide-box right-12-box__el">15</div>
+                <div class="slide-box right-12-box__el">16</div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
     </div>
   </div>
+  <!--========== CONNECT SCRIPTS ==========-->
+  <!-- Connecting external libraries and tools -->
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Including our script files -->
+  <script defer src="/js/main.js"></script>
 </body>
 </html>
 
