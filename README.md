@@ -1,7 +1,7 @@
 # Different Grids
 ![Lines of code](https://img.shields.io/tokei/lines/github/sineylo/Different_grids?style=for-the-badge) ![Code size](https://img.shields.io/github/languages/code-size/SineYlo/different_grids?style=for-the-badge)
 
-![Grid](https://i.ibb.co/jLV3zLp/msedge-s-FFUk-L6yp-T.png 'Grid')
+![Grid](https://i.ibb.co/z5vXN3W/msedge-u-Ybese-Mw-Ui.png 'Grid')
 
 🔸 Here you will find 12 ready-made grids that you can already use in your projects.
 
