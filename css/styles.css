@@ -328,7 +328,7 @@
 }
 
 .swiper-slide-9__box:nth-child(1) {
-  grid-row: span 3;
+  grid-row: 1 / -1;
 }
 
 .swiper-slide-9__box:nth-child(2),
