@@ -1,5 +1,5 @@
 # Different Grids
-![Lines of code](https://img.shields.io/tokei/lines/github/sineylo/Different_grids?style=for-the-badge) ![Code size](https://img.shields.io/github/languages/code-size/SineYlo/different_grids?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/sineylo/Different-Grids?style=for-the-badge) ![Code size](https://img.shields.io/github/languages/code-size/SineYlo/Different-Grids?style=for-the-badge)
 
 ![Grid](https://i.ibb.co/z5vXN3W/msedge-u-Ybese-Mw-Ui.png 'Grid')
 
